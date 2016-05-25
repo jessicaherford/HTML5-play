@@ -1,0 +1,14 @@
+body {
+    font-family: 'Myriad-Pro', 'myriad', helvetica, arial, sans-serif;
+    text-align: center;
+}
+input { font-size: 14px; font-weight: bold;  }
+
+input[type=range]:before { content: attr(min); padding-right: 15px; }
+input[type=range]:after { content: attr(max); padding-left: 15px;}
+
+output {
+    display: block;
+    font-size: 5.5em;
+    font-weight: bold;
+}
